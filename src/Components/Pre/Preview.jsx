@@ -7,8 +7,8 @@ import Body from "../Body";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
 import { QuoteContext } from "../../App";
-import { getStorage, ref, getDownloadURL } from "firebase/storage";
-import storage, { db } from "./../../firebase";
+
+import { db } from "./../../firebase";
 import { collection, addDoc, Timestamp, doc } from "firebase/firestore";
 // import { url } from "inspector";
 // import { url } from "inspector";
