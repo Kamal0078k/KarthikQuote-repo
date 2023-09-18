@@ -21,11 +21,12 @@ const Body = () => {
   }, []);
 
   return (
-    <div className="w-full min-h-[530px] mt-4">
-      <table className="text-[14px]  w-[100%]">
+    <div className="w-full min-h-[510px] mt-4">
+      <table className="text-[10px]  w-[100%]">
         <tr>
           <th className="border-[0.1rem] border-black w-10">S.no</th>
-          <th className="border-[0.1rem] border-black w-[250px]">Item</th>
+          <th className="border-[0.1rem] border-black w-[100px]">Item</th>
+          <th className="border-[0.1rem] border-black w-[200px]">Image</th>
           <th className="border-[0.1rem] border-black w-[350px]">
             Description
           </th>
@@ -47,7 +48,9 @@ const Body = () => {
             </td>
             <td className="  border-[0.1rem] border-black ">
               {ell.name} <br />
-              <img className="w-[220px] pb-1 px-5" src={ell.images} />
+            </td>
+            <td className="  border-[0.1rem] border-black ">
+              <img className="w-[100px] pb-1 px-5" src={ell.images} />
             </td>
             <td className="text-left pl-2 border-[0.1rem] border-black">
               {ell.description}

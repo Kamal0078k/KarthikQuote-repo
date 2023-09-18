@@ -31,8 +31,14 @@ const Preview = () => {
     window.print();
   };
   return (
-    <div className="w-screen" ref={contentRef}>
-      <div className="w-[99.7%]">
+    <div className="w-screen relative" id="preview" ref={contentRef}>
+      {/* <div className="absolute h-[100px] w-[500px]">
+        <img src="/ora.svg" />
+      </div> */}
+      <div className="absolute w-72 opacity-10 top-[410px] left-[220px] -z-1">
+        <img src="/KC.svg" />
+      </div>
+      <div className="w-[99.7%] -mt-1">
         <Head />
         <QuoteHead />
 

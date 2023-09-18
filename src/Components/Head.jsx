@@ -12,10 +12,12 @@ const Head = () => {
           <div>Mail: karthikcreatives2@gmail.com</div>
         </div>
         <div className="text-red-500  text-4xl border-[0.1rem] rounded-md   w-[100%] text-center py-2 border-black">
-          <b>KARTHIK CREATIVES</b>
-          <br />
-          <div className="-mt-4">
-            <b className="text-xl">SALES & SERVICES</b>
+          <div>
+            <b>KARTHIK CREATIVES</b>
+            <br />
+            <div className="-mt-4">
+              <b className="text-xl">SALES & SERVICES</b>
+            </div>
           </div>
         </div>
         <div className="text-[10px] mr-[65%] -mt-2">

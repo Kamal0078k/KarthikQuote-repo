@@ -10,6 +10,17 @@
     size: A4;
   }
 }
+
+#preview {
+  @media print {
+    @page {
+      size: A4;
+    }
+  }
+  @page {
+    size: A4;
+  }
+}
 .somek {
   width: 100px;
   margin-left: 10px;
