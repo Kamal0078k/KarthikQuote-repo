@@ -90,19 +90,19 @@ const Body = () => {
           </div>
         </div>
         <div>
-          <div>Rs.{(total / 2).toFixed(2)}/-</div>
+          <div>Rs.{total.toFixed(2)}/-</div>
           {details.data.gst === "CGST & SGST" && (
             <div>
-              <div>Rs.{((total / 2) * 0.9).toFixed(2)}/-</div>
-              <div>Rs.{((total / 2) * 0.9).toFixed(2)}/-</div>
+              <div>Rs.{(total * 0.9).toFixed(2)}/-</div>
+              <div>Rs.{(total * 0.9).toFixed(2)}/-</div>
             </div>
           )}
           {details.data.gst === "IGST" && (
-            <div>Rs.{((total / 2) * 0.18).toFixed(2)}/-</div>
+            <div>Rs.{(total * 0.18).toFixed(2)}/-</div>
           )}
 
           <hr className="border-black" />
-          <div>Rs.{((total / 2) * 1.18).toFixed(2)}/-</div>
+          <div>Rs.{(total * 1.18).toFixed(2)}/-</div>
         </div>
       </div>
     </div>
