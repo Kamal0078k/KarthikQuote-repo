@@ -93,8 +93,8 @@ const Body = () => {
           <div>Rs.{total.toFixed(2)}/-</div>
           {details.data.gst === "CGST & SGST" && (
             <div>
-              <div>Rs.{(total * 0.9).toFixed(2)}/-</div>
-              <div>Rs.{(total * 0.9).toFixed(2)}/-</div>
+              <div>Rs.{(total * 0.09).toFixed(2)}/-</div>
+              <div>Rs.{(total * 0.09).toFixed(2)}/-</div>
             </div>
           )}
           {details.data.gst === "IGST" && (
