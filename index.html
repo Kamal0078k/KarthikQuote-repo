@@ -2,13 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css"
+    />
     <link rel="icon" type="image/svg+xml" href="/KC.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KCQuotation</title>
     <style type="text/css">
       @media print {
         @page {
-          size: A4;
+          size: a4;
         }
         html,
         body {
@@ -33,7 +37,7 @@
     </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root" class="A4"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
