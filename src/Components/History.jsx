@@ -84,9 +84,9 @@ const History = () => {
           {
             /* console.log(ell.created.toDate().getFullYear()); */
           }
-          const date = `${ell.created.toDate().getDate()}/${ell.created
-            .toDate()
-            .getMonth()}/${ell.created.toDate().getFullYear()}`;
+          const date = `${ell.created.toDate().getDate()}/${
+            ell.created.toDate().getMonth() + 1
+          }/${ell.created.toDate().getFullYear()}`;
           return (
             <Card key={ell.id} className="mt-2 bg-red-200">
               <CardContent>

@@ -4,7 +4,7 @@ import { QuoteContext } from "../App";
 const QuoteHead = () => {
   const details = useContext(QuoteContext);
   const date = new Date();
-  const day = `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`;
+  const day = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
   return (
     <div className="w-[100%]">
       <div className="text-center text-lg"> QUOTATION</div>

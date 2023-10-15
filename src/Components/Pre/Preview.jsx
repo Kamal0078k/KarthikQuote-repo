@@ -20,6 +20,7 @@ const Preview = () => {
   const details = useContext(QuoteContext);
 
   const printHandle = async () => {
+    console.log(details.data);
     try {
       addDoc(QuotationRef, {
         ...details.data,
