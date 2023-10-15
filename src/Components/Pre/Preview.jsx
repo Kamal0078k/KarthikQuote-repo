@@ -27,7 +27,7 @@ const Preview = () => {
         created: Timestamp.now(),
       });
     } catch (err) {
-      console.log(err);
+      alert(err);
     }
     window.print();
   };
