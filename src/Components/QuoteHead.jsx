@@ -20,7 +20,7 @@ const QuoteHead = () => {
           <div>Date: {day}</div>
           <div className="border-[0.1rem] w-[220px] mt-2 rounded-md bg-red-100 px-1 border-black">
             BANK DETAILS:<br></br> Name : Karthik Creatives <br></br>
-            A/C.No : <b>50200069640531</b> <br></br>IFSC : HDFC0007531 <br />{" "}
+            A/C.No : <b>50200069640531</b> <br></br>IFSC : HDFC0007513 <br />{" "}
             HDFC Nacharam
           </div>
         </div>
